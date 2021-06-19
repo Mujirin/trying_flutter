@@ -17,7 +17,11 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Image.asset('assets/img2.jpeg'),
+        child: IconButton(
+          onPressed: (){print("yes");},
+          icon: Icon(Icons.mail),
+          color: Colors.green,
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
